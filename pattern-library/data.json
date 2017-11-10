@@ -1,0 +1,365 @@
+{
+    "project_logo": "/assets/images/logo.svg",
+    "project_favicon": "favicon.png",
+    "project_name": "powered by Havas Group",
+    "project_url": "download.havas.com",
+    "copyright_start_year": "2010",
+    "client_name": "Havas Group",
+    "client_url": "havas.com",
+    "creators": [
+        {
+            "name": "Yvone Bond",
+            "url": ""
+        },
+        {
+            "name": "Coporate Communications Team",
+            "url": ""
+        }
+    ],
+    "theme": {
+        "border_color": "#E0E6ED",
+        "highlight_color": "#E0E6ED",
+        "brand_color": "#483D73",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": true,
+        "show_version": false,
+        "max_width": "960px",
+        "titles": {
+            "library_title": "Style Guide",
+            "pages_title": "Overview",
+            "components_title": "Style Guide"
+        }
+    },
+    "assets": {
+        "css": [
+            "https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"
+        ],
+        "js": [
+            "https://code.getmdl.io/1.3.0/material.min.js"
+        ]
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": "https://fonts.googleapis.com/css?family=Montserrat",
+        "font_awesome": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Overview",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/intro.md"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "editorial",
+            "title": "Editorial",
+            "components": [
+                {
+                    "group": "editorial",
+                    "name": "tone",
+                    "title": "Tone & Voice",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "creation",
+                    "title": "Content Creation",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "general",
+                    "title": "General Style Issues",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "do",
+                    "title": "Other Do's",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "dont",
+                    "title": "Other Don'ts",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "network",
+                    "title": "Havas Network",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "cities",
+                    "title": "Cities",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "design",
+                    "title": "Design Style Items",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "people",
+                    "title": "People",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "company",
+                    "title": "Company Names",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "punctuation",
+                    "title": "Punctuation",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "italics",
+                    "title": "Italics",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "numbers",
+                    "title": "Numbers",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "abbreviations",
+                    "title": "ABBREVIATIONS, ACRONYMS, NAMES, & TITLES",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "gender",
+                    "title": "Gender",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "editorial",
+                    "name": "social",
+                    "title": "Social Media",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "branding",
+            "title": "Branding",
+            "components": [
+                {
+                    "group": "branding",
+                    "name": "white",
+                    "title": "Logo White",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true,
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "branding",
+                    "name": "black",
+                    "title": "Logo Black",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "branding",
+                    "name": "color-palette",
+                    "title": "Color Scheme",
+                    "type": "colors",
+                    "colors": [
+                        "#FFFFFF",
+                        "#000000",
+                        "#CCCCCC",
+                        "#483D73"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "typography",
+            "title": "Typography",
+            "components": [
+                {
+                    "group": "Typography",
+                    "name": "montserrat",
+                    "title": "Montserrat Styles",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "typography",
+                    "name": "headlines",
+                    "title": "Headlines",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "typography",
+                    "name": "subheads",
+                    "title": "Subheads",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "body",
+                    "title": "Body Copy",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "icons",
+            "title": "Icons",
+            "components": [
+                {
+                    "group": "icons",
+                    "name": "action",
+                    "title": "Action Icons",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "icons",
+                    "name": "interface",
+                    "title": "User Interface Icons",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "icons",
+                    "name": "destination",
+                    "title": "Destination Icons",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "buttons",
+            "title": "Calls to Action",
+            "components": [
+                {
+                    "group": "buttons",
+                    "name": "default",
+                    "title": "Primary Calls to Action",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "chips",
+                    "title": "Chips",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "navigation",
+            "title": "Navigation",
+            "components": [
+                {
+                    "group": "navigation",
+                    "name": "personalization",
+                    "title": "Personalization Bar",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "forms",
+            "title": "Forms",
+            "components": [
+                {
+                    "group": "forms",
+                    "name": "textfields",
+                    "title": "Text Fields",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "forms",
+                    "name": "numericfield",
+                    "title": "Numeric Fields",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        }
+    ],
+    "version": "1.9.5"
+}
